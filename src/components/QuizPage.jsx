@@ -1,6 +1,8 @@
 import { useState, useContext } from 'react'
 import { QuizContext } from '../Helpers/Contexts'
 import Questions from '../data'
+import axios from 'axios'
+
 
 const QuizPage = () => {
   const [question, setQuestion] = useState(0)
@@ -15,6 +17,14 @@ const QuizPage = () => {
     
     question >= Questions.length -1 ? setPage('finish') : setQuestion(question + 1)
   }
+
+  const getQuestions = () => {
+    axios.get("https://opentdb.com/api.php?amount=10&type=multiple").then((response) => {
+      console.log(response.data.results[0])
+    })
+  }
+
+  getQuestions()
 
   return (
     <div>
