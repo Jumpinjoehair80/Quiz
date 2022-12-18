@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import { QuizContext } from '../Helpers/Contexts'
-import Questions from "../data"
+// import Questions from "../data"
 
 
 const FinishPage = () => {

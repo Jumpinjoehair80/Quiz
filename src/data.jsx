@@ -1,20 +1,28 @@
-const Questions = [
-  {
-    question: 'What is 1 + 2?',
-    OptionA: '24',
-    OptionB: '12',
-    OptionC: '21',
-    OptionD: '3',
-    answer: 'D'
-  },
-  {
-    question: 'Where is the World Cup this year?',
-    OptionA: 'Mexico City',
-    OptionB: 'Panama Canal',
-    OptionC: 'Qatar',
-    OptionD: 'Shoguns',
-    answer: 'C'
-  }
-]
+// const Questions =[
+//   {
+//   category: "Entertainment: Japanese Anime & Manga",
+//   type: "multiple",
+//   difficulty: "medium",
+//   question: "In Dragon Ball Z, who was the first character to go Super Saiyan 2?",
+//   correct_answer: "Gohan",
+//   incorrect_answers: [
+//   "Goku",
+//   "Vegeta",
+//   "Trunks"
+//   ]
+//   },
+//   {
+//   category: "Science: Computers",
+//   type: "multiple",
+//   difficulty: "medium",
+//   question: "Nvidia&#039;s headquarters are based in which Silicon Valley city?",
+//   correct_answer: "Santa Clara",
+//   incorrect_answers: [
+//   "Palo Alto",
+//   "Cupertino",
+//   "Mountain View"
+//   ]
+//   },
+// ]
 
-export default Questions
+// export default Questions
